@@ -1,0 +1,11 @@
+{
+  "tailwindCSS.experimental.configFile": {
+    "apps/AtlasRisk/src/styles.css": [
+      "apps/AtlasRisk/src/**",
+      "libs/design-system/src/**"
+    ]
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}

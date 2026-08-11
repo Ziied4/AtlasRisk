@@ -1,0 +1,6 @@
+@reference "tailwindcss";
+@reference "./../../../../taiwind-colors/src/theme.css";
+
+:host {
+  @apply flex flex-col rounded-xl bg-nav p-4 text-white shadow-md;
+}
