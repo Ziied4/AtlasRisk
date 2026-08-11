@@ -2,5 +2,5 @@
 @reference "./../../../../taiwind-colors/src/theme.css";
 
 :host {
-  @apply flex flex-col rounded-xl bg-nav p-4 text-white shadow-md;
+  @apply flex flex-col gap-2 rounded-xl bg-nav p-4 text-white shadow-md/30;
 }
