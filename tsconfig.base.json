@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "strict": false,
     "paths": {
-      "@atlas-risk/taiwind-colors": ["./libs/taiwind-colors/src/index.ts"]
+      "@atlas-risk/taiwind-colors": ["./libs/taiwind-colors/src/index.ts"],
+      "@atlas-risk/design-system": ["./libs/design-system/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
