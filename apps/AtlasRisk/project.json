@@ -8,9 +8,7 @@
   "targets": {
     "build": {
       "executor": "@angular/build:application",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
         "outputPath": "dist/apps/AtlasRisk",
@@ -23,9 +21,7 @@
             "input": "apps/AtlasRisk/public"
           }
         ],
-        "styles": [
-          "apps/AtlasRisk/src/styles.scss"
-        ]
+        "styles": ["apps/AtlasRisk/src/styles.css"]
       },
       "configurations": {
         "production": {
@@ -68,9 +64,7 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": [
-        "{workspaceRoot}/coverage/{projectRoot}"
-      ],
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
         "jestConfig": "apps/AtlasRisk/jest.config.cts",
         "tsConfig": "apps/AtlasRisk/tsconfig.spec.json"

@@ -1,0 +1,84 @@
+@theme {
+  /* BRAND — AtlasRisk Blue */
+  --color-brand-50: #f4f8ff;
+  --color-brand-100: #e6f0ff;
+  --color-brand-200: #c7dcff;
+  --color-brand-300: #9fc2ff;
+  --color-brand-400: #6e9fff;
+  --color-brand-500: #3b7bf6;
+  --color-brand-600: #245edb;
+  --color-brand-700: #1d49b2;
+  --color-brand-800: #1c3d8f;
+  --color-brand-900: #1b3473;
+  --color-brand-950: #10204a;
+
+  /* ACCENT — Teal */
+  --color-accent-50: #effcfb;
+  --color-accent-100: #d5f7f4;
+  --color-accent-200: #aeede8;
+  --color-accent-300: #78ddd6;
+  --color-accent-400: #42c7be;
+  --color-accent-500: #1fa9a2;
+  --color-accent-600: #178a86;
+  --color-accent-700: #176e6c;
+  --color-accent-800: #185957;
+  --color-accent-900: #174a49;
+
+  /* NEUTRAL */
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-300: #cbd5e1;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-500: #64748b;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+  --color-neutral-950: #080f1f;
+
+  /* STATES */
+  --color-success: #16834a;
+  --color-warning: #c26a0a;
+  --color-danger: #dc3545;
+  --color-analytics: #7c4dff;
+
+  /* TYPOGRAPHY */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* RADIUS */
+  --radius-card: 0.75rem;
+  --radius-control: 0.5rem;
+
+  /* SHADOW */
+  --shadow-card:
+    0 1px 2px rgb(15 23 42 / 0.04), 0 4px 12px rgb(15 23 42 / 0.05);
+}
+
+@theme inline {
+  --color-primary: var(--color-brand-600);
+  --color-primary-hover: var(--color-brand-700);
+  --color-primary-soft: var(--color-brand-50);
+
+  --color-secondary: var(--color-accent-600);
+  --color-secondary-hover: var(--color-accent-700);
+
+  --color-surface: #ffffff;
+  --color-surface-subtle: var(--color-neutral-50);
+  --color-surface-muted: var(--color-neutral-100);
+
+  --color-content: var(--color-neutral-900);
+  --color-content-secondary: var(--color-neutral-600);
+  --color-content-muted: var(--color-neutral-500);
+
+  --color-border: var(--color-neutral-200);
+  --color-border-strong: var(--color-neutral-300);
+
+  --color-nav: var(--color-brand-950);
+  --color-nav-hover: var(--color-brand-900);
+  --color-nav-active: var(--color-brand-800);
+
+  --color-risk-low: var(--color-success);
+  --color-risk-medium: var(--color-warning);
+  --color-risk-high: var(--color-danger);
+}
